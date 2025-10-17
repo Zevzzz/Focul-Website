@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Focul — User Guide</title>
+    <meta name="description" content="Focul User Guide — download and usage instructions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      .doc-frame-wrap { height: calc(100vh - 64px - 80px); }
+      .doc-frame { width: 100%; height: 100%; border: 0; background: #fff; border-radius: 10px; }
+      .guide-header { padding: 28px 0 12px; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <span>Focul</span>
+        </a>
+        <nav class="primary-nav">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#how">How it works</a>
+          <a href="index.html#privacy">Privacy</a>
+          <a href="index.html#download">Download</a>
+          <a href="user-guide.html" class="btn btn-small">User Guide</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container guide-header">
+        <h1>User Guide</h1>
+        <p class="subtext">This page embeds the full Focul user guide for quick reference.</p>
+      </section>
+      <section class="container doc-frame-wrap">
+        <iframe
+          class="doc-frame"
+          src="Focul%20User%20Guide.docx.html"
+          title="Focul User Guide"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container subfooter">
+        <small>© <span id="year"></span> Focul</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
+
